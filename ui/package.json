@@ -1,0 +1,24 @@
+{
+  "name": "@myorg/ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-dts": "^3.7.2"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "^0.5.1",
+    "react": "19.0.0-rc.0",
+    "react-dom": "19.0.0-rc.0",
+    "react-server-dom-webpack": "19.0.0-rc.0"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production vite build"
+  }
+}
